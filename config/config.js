@@ -1,165 +1,169 @@
-
-import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import profile from "./profile.png";
+import {
+  faAppStore,
+  faGithub,
+  faGooglePlay,
+} from "@fortawesome/free-brands-svg-icons";
+import {} from "@fortawesome/free-solid-svg-icons";
 
 export const navigation = {
-	name: "Hashir",
-	links: [
-		{
-			title: "About",
-			link: "#about",
-		},
-		{
-			title: "Projects",
-			link: "#projects",
-		},
-		{
-			title: "Contact",
-			link: "#contact",
-		},
-		{
-			title: "Links",
-			link: "/links",
-		},
-	],
-}
+  name: "Aayush",
+  links: [
+    {
+      title: "About",
+      link: "#about",
+    },
+    {
+      title: "Projects",
+      link: "#projects",
+    },
+    {
+      title: "Contact",
+      link: "#contact",
+    },
+    {
+      title: "Links",
+      link: "/links",
+    },
+  ],
+};
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
-	image: profile.src,
-	buttons: [
-		{
-			title: "Contact Me",
-			link: "#contact",
-			isPrimary: true,
-		},
-		{
-			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-			isPrimary: false,
-		},
-	],
-}
+  title: "Hey, I'm Aayush",
+  description: "A software engineer that is always eager to learn new things.",
+  image: profile.src,
+  buttons: [
+    {
+      title: "Contact Me",
+      link: "#contact",
+      isPrimary: true,
+    },
+    // {
+    //   title: "Resume",
+    //   link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    //   isPrimary: false,
+    // },
+  ],
+};
 
 export const about = {
-	title: "Who I am",
-	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
-	],
-}
+  title: "Who I am",
+  description: [
+    "I am currently a fourth year Software Engineering student at Ontario Tech University, I have a passion for software development, my passion for software engineering began in Highschool where I would code websites for fun in my free time, which sparked me into joining a company where I did freelance work in highschool, coding for fun as I made a little extra money, because of this passion I decided to go into a Software Engineering degree, whenever I am not coding however I like to go the Gym and play Basketball.",
+  ],
+};
 
 export const work = {
-	title: "What I do",
-	cards: [
-		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-			icons: null,
-		},
-		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
-			icons: null,
-		}
-	],
-}
+  title: "Experience",
+  cards: [
+    {
+      title: "CIBC",
+      jobTitle: "Application Developer",
+      date: "May 2023 - Present",
+      description: [
+        "•	Orchestrated intricate Jira workflows, enhancing cross-functional collaboration, and reducing project execution time by 60%.",
+      ],
+      icons: null,
+    },
+    {
+      title: "FGF Brands",
+      jobTitle: "Automation Software QA",
+      date: "Sept 2021 - Aug 2022",
+      description: [
+        "•	Created and maintained a suite of over 500 automated tests, utilizing Java and Selenium, resulting in a 50% reduction in manual testing time",
+      ],
+      icons: null,
+    },
+  ],
+};
 
 export const projects = {
-	title: "Projects",
-	cards: [
-		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
-				},
-			]
-		},
-		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
-			]
-		},
-		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
-				},
-			]
-		},
-	],
-}
+  title: "Projects",
+  cards: [
+    {
+      title: "Fresh Market",
+      description:
+        "E-Commerce application using Android Studio that allows users to log in and add items to a cart saving all their data on a SQL Lite Database",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/",
+        },
+      ],
+    },
+    {
+      title: "Online Bookstore",
+      description:
+        "A user-friendly bookstore that allows users to quickly find books relevant to their enrolled courses and provides efficient search methods for ease of access",
+      icons: [
+        {
+          icon: faGithub,
+          link: "",
+        },
+      ],
+    },
+    {
+      title: "ChatR",
+      description:
+        "Real-time chat messaging system that allows users to exchange messages securely",
+      icons: [
+        {
+          icon: faGithub,
+          link: "https://github.com/",
+        },
+      ],
+    },
+    {
+      title: "Lie Detector Algorithm",
+      description:
+        "Utilized TensorFlow and Keras to train a deep learning model that achieved an accuracy of 86% in detecting deception from video transcripts.",
+      icons: [
+        {
+          icon: faGithub,
+          link: "",
+        },
+      ],
+    },
+  ],
+};
 
 export const contact = {
-	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
-	buttons: [
-		{
-			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
-			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "",
-			isPrimary: false,
-		},
-	]
-}
+  title: "Get in touch",
+  description:
+    "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at aayush.b.parikh@gmail.com.",
+  buttons: [
+    {
+      title: "Email Me",
+      link: "mailto:aayush.b.parikh@gmail.com",
+      isPrimary: true,
+    },
+  ],
+};
 
-// SEARCH ENGINE 
+// SEARCH ENGINE
 export const SEO = {
-	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
-	image: profile.src,
-}
+  // 50 - 60 char
+  title: "Aayush Parikh",
+  description:
+    "I am currently a fourth year Software Engineering student at Ontario Tech University, I have a passion for software development.",
+  image: profile.src,
+};
 
 export const links = {
-	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
-	cards: [
-		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
-		{
-			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
-		},
-		{
-			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
-		},
-	]
-}
+  image: profile.src,
+  title: "Aayush Parikh",
+  description: "Software Engineering",
+  cards: [
+    {
+      title: "My website",
+      link: "https://hashirshoaeb.com/",
+    },
+    {
+      title: "My GitHub",
+      link: "https://github.com/hashirshoaeb/",
+    },
+    {
+      title: "My LinkedIn",
+      link: "https://www.linkedin.com/in/hashirshoaeb/",
+    },
+  ],
+};
