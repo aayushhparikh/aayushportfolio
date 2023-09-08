@@ -48,7 +48,7 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I am currently a fourth year Software Engineering student at Ontario Tech University, I have a passion for software development, my passion for software engineering began in Highschool where I would code websites for fun in my free time, which sparked me into joining a company where I did freelance work in highschool, coding for fun as I made a little extra money, because of this passion I decided to go into a Software Engineering degree, whenever I am not coding however I like to go the Gym and play Basketball.",
+    "I'm a fourth-year Software Engineering student at Ontario Tech University, and my enthusiasm for software development has been a part of my life since high school. Back then, I started coding websites for fun during my free time, This early exposure ignited my passion for software engineering, and it became clear that pursuing a degree in this field was the right path for me. When not immersed in coding, I enjoy hitting the gym and playing basketball. These activities provide a balance to my tech-focused interests, keeping me physically active and mentally refreshed.",
   ],
 };
 
@@ -60,7 +60,7 @@ export const work = {
       jobTitle: "Application Developer",
       date: "May 2023 - Present",
       description: [
-        "•	Orchestrated intricate Jira workflows, enhancing cross-functional collaboration, and reducing project execution time by 60%.",
+        "Helped continuously push changes to CIBC's growing Private Wealth Management Software utilizing Java to ensure seamless user experience when using the application",
       ],
       icons: null,
     },
@@ -69,7 +69,7 @@ export const work = {
       jobTitle: "Automation Software QA",
       date: "Sept 2021 - Aug 2022",
       description: [
-        "•	Created and maintained a suite of over 500 automated tests, utilizing Java and Selenium, resulting in a 50% reduction in manual testing time",
+        "Created and maintained a suite of over 500 automated tests, utilizing Java and Selenium, resulting in a 50% reduction in manual testing time",
       ],
       icons: null,
     },
@@ -86,7 +86,7 @@ export const projects = {
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/",
+          link: "https://github.com/aayushhparikh/FreshMarket",
         },
       ],
     },
@@ -97,7 +97,7 @@ export const projects = {
       icons: [
         {
           icon: faGithub,
-          link: "",
+          link: "https://github.com/aayushhparikh/OTU-Bookstore",
         },
       ],
     },
@@ -108,7 +108,7 @@ export const projects = {
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/",
+          link: "https://github.com/aayushhparikh/Secure-Chat-System/",
         },
       ],
     },
@@ -119,7 +119,7 @@ export const projects = {
       icons: [
         {
           icon: faGithub,
-          link: "",
+          link: "https://colab.research.google.com/drive/1XF5iTZYciL6DgLbxsZLPgs7AjF-_aRe1?usp=sharing",
         },
       ],
     },
@@ -146,24 +146,4 @@ export const SEO = {
   description:
     "I am currently a fourth year Software Engineering student at Ontario Tech University, I have a passion for software development.",
   image: profile.src,
-};
-
-export const links = {
-  image: profile.src,
-  title: "Aayush Parikh",
-  description: "Software Engineering",
-  cards: [
-    {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
-    },
-    {
-      title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-  ],
 };
