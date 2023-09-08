@@ -144,6 +144,6 @@ export const SEO = {
   // 50 - 60 char
   title: "Aayush Parikh",
   description:
-    "I am currently a fourth year Software Engineering student at Ontario Tech University, I have a passion for software development.",
+    "I am currently a fourth year Software Engineering student at Ontario Tech University, I have a passion for software engineering.",
   image: profile.src,
 };
