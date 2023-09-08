@@ -147,3 +147,23 @@ export const SEO = {
     "I am currently a fourth year Software Engineering student at Ontario Tech University, I have a passion for software engineering.",
   image: profile.src,
 };
+
+export const links = {
+  image: profile.src,
+  title: "Aayush Parikh",
+  description: "Software Engineering",
+  cards: [
+    {
+      title: "My website",
+      link: "aayushhparikh.github.io/aayushportfolio/",
+    },
+    {
+      title: "My GitHub",
+      link: "https://github.com/aayushparikh/",
+    },
+    {
+      title: "My LinkedIn",
+      link: "https://www.linkedin.com/in/aayush-p/",
+    },
+  ],
+};
