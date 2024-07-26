@@ -29,20 +29,8 @@ export const navigation = {
 };
 export const intro = {
   title: "Hey, I'm Aayush",
-  description: "A software engineer that is always eager to learn new things.",
+  description: "A software engineer that is always eager to learn new things",
   image: profile.src,
-  buttons: [
-    {
-      title: "Contact Me",
-      link: "#contact",
-      isPrimary: true,
-    },
-    // {
-    //   title: "Resume",
-    //   link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-    //   isPrimary: false,
-    // },
-  ],
 };
 
 export const about = {
@@ -57,8 +45,17 @@ export const work = {
   cards: [
     {
       title: "CIBC",
-      jobTitle: "Application Developer",
-      date: "May 2023 - Present",
+      jobTitle: "Information Security Co-Ordinator",
+      date: "January 2023 - April 2024",
+      description: [
+        "Investigated and mitigated potential cybersecurity threats by employing advanced security protocols and tools such as SIEM, endpoint protection, and threat intelligence platforms, reducing the risk of data breaches within CIBC environment.",
+      ],
+      icons: null,
+    },
+    {
+      title: "CIBC",
+      jobTitle: "QA Analyst",
+      date: "May 2023 - December 2023",
       description: [
         "Helped continuously push changes to CIBC's growing Private Wealth Management Software utilizing Java to ensure seamless user experience when using the application",
       ],
